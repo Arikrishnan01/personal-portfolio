@@ -9,7 +9,7 @@ export default function AboutContent() {
         <div className='aboutContent-container'>
             <h1>Mr.Arikrishnan</h1> 
             <p>A FullStack Developer</p>
-            <a href={mernstack}>
+            <a href={mernstack} target='_blank'>
                 <button className='aboutContent-downloadBtn'>Resume</button>
             </a>
             <Link to='projects' smooth={true} duration={500}>
