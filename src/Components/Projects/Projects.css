@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.projects-container-h1{
+    font-family: "Alata", sans-serif;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0px;
+    align-items: center;
+}
+.projects-container > h1{
+    padding-bottom: 15px;
+}
+.projects-container > p{
+    padding-bottom: 20px;
+}
+.projects-container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 60vw;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(65, 59, 59);
+    border-radius: 3px;
+    margin-left: 18%;
+    margin-bottom: 6%;
+}
+.contact-container-top > p{
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-container-top > h1{
+    color: white;
+    font-family: "Alata", sans-serif;
+}
+.contact-container-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contact-container-bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+.contact-container-bottom-left > div{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    background-color: rgb(45, 42, 42);
+    border: 1px solid inherit;
+    margin-bottom: 20px;
+    color: gray;
+    border-radius: 3px;
+}
+.contact-container-bottom-left > div > span{
+    margin-right: 10px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.contact-container-bottom-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    color: gray;
+}
+.contact-container-bottom-right > label{
+    margin-bottom: 5px;
+}
+.contact-container-bottom-right > input{
+    width: 350px;
+    height: 35px;
+    background-color: rgb(45, 42, 42);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.contact-container-bottom-right > textarea{
+    width: 350px;
+    height: 80px;
+    background-color: rgb(45, 42, 42);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.contact-container-bottom-right > button{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    padding: 5px 7px;
+    margin-top: 10px;
+}
+.contact-container-bottom-right > button:hover{
+    background-color: #f64c08;
+    color: white;
+}
+.contact-container-bottom-left-icons{
+    background-color: inherit !important;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.linkedIn-icon:hover{
+    color: #f64c08;
+}
+
+.contact-container-bottom-left-icons > a:hover{
+    background-color: #f65c08;
+    border-radius: 50%;
+    transition: transform 200ms ease-in;
+}

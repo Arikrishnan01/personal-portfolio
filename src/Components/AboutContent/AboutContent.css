@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&display=swap');
+.aboutContent{
+    color: white;
+    position: relative;
+}
+.aboutContent-container{
+    position: absolute;
+    top: 250px;
+    right: 200px;
+}
+.aboutContent-container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+.aboutContent-container > a > button{
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left;
+    border-radius: 2px;
+}
+.aboutContent-container > h1{
+    font-size: 50px;
+    font-family: "Monserrat", sans-serif;
+}
+.aboutContent-downloadBtn{
+    background-color: #f64c08;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 300;
+    margin-right: 20px;
+}
+.aboutContent-downloadBtn:hover{
+    color: #f64c08;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.aboutContent-workBtn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white !important;
+    cursor: pointer;
+    padding: 9px 45px;
+    font-size: 14px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 300;
+}
+.aboutContent-workBtn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
