@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutContent.css';
 import { Link } from 'react-scroll';
+import mernstack from '../../Assets/mernstack.pdf';
 
 export default function AboutContent() {
   return (
@@ -8,8 +9,8 @@ export default function AboutContent() {
         <div className='aboutContent-container'>
             <h1>Mr.Arikrishnan</h1> 
             <p>A FullStack Developer</p>
-            <a href='www.google.com'>
-                <button className='aboutContent-downloadBtn'>Download CV</button>
+            <a href={mernstack}>
+                <button className='aboutContent-downloadBtn'>Resume</button>
             </a>
             <Link to='projects' smooth={true} duration={500}>
                 <button className='aboutContent-workBtn'>My Work</button>
