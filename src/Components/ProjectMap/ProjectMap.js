@@ -20,7 +20,7 @@ export default function ProjectMap({ img, title, desc, link}) {
                                 <button>Live</button>
                             </div>
                     ) : (
-                        <img src={img} alt='project live'/>
+                            <img src={img} alt='project live'/>
                     )
                 }
             

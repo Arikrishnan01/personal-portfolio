@@ -1,26 +1,26 @@
 import React from 'react';
 import './Projects.css';
 import { Element } from 'react-scroll';
-import ipl_clone_img  from "../../Assets/ipl-clone.png";
-import find_meals from "../../Assets/find-meals.png";
+import recipe_book  from "../../Assets/recipe.png";
+import todo_app from "../../Assets/todo.png";
 import marriage_app from "../../Assets/marriage-app.png";
-import hotel_bokking from '../../Assets/bg_07.png';
+import stack_overflow from '../../Assets/overflow.png';
 import ProjectMap from '../ProjectMap/ProjectMap';
 
 export default function Projects() {
 
     const DEPLOY_URL = [
         {
-            img: ipl_clone_img,
-            title: "ipl-clone",
-            desc: "This is ipl-clone app we can store the every ipl teams and teams players data",
-            link: "https://ipl-clone-app.netlify.app/"
+            img: recipe_book,
+            title: "recipe-book",
+            desc: "This is recipe_book app we can store the recipes. User can manage the our recipe, ingredience",
+            link: "https://recipe-book-flame.vercel.app/"
         },
         {
-            img: find_meals,
-            title: "find-meals",
-            desc: "This is app will helpfull for find your favourite food and can watch making vedio from youtube",
-            link: "https://meals-finder-app.netlify.app/"
+            img: todo_app,
+            title: "todo-app",
+            desc: "This is app will helpfull for maintain our notes and all kind of things.",
+            link: "https://todo-apps-delta.vercel.app/"
         },
         {
             img : marriage_app,
@@ -29,10 +29,10 @@ export default function Projects() {
             link: "https://marriage-app.netlify.app/"
         },
         {
-            img : hotel_bokking,
-            title: "hotel-bokking",
-            desc: "This is app can usefull for store the new checkin and chechout customers details",
-            link: "https://hotel-booking-register.vercel.app//"
+            img : stack_overflow,
+            title: "stack-overflow",
+            desc: "This is app for stackoverflow app clone. Here users can ask question and comments.. ",
+            link: "https://tsackoverflow-clone.netlify.app/"
         }
     ]
 
