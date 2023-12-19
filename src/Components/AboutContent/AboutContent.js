@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutContent.css';
 import { Link } from 'react-scroll';
-import mernstack from '../../Assets/MERN_ARI_01.pdf';
+import mernstack from '../../Assets/MERN_ARI_02.pdf';
 
 export default function AboutContent() {
   return (
